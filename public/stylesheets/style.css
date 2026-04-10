@@ -8,6 +8,14 @@ a {
   color: #00B7FF;
 }
 
+h1 {
+  text-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+
+p {
+  border-bottom-style: dotted;
+}
+
 .completed-text {
   color: green;
   font-weight: bold;
@@ -19,4 +27,14 @@ a {
 
 button {
   border-style: dashed; 
+}
+
+button:hover {
+  border-style: solid;
+  font-weight: bold;
+  border-radius: 30px;
+}
+
+input::selection {
+  border-color: black;
 }
